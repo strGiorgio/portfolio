@@ -3,7 +3,12 @@
     justify-content: space-around;
 }
 
+.main-navigation .main-action{
+    text-shadow: 4px 4px 4px #000;
+}
+
 .main-navigation .main-action:hover{ 
     opacity: 20%;
     transform: scale(0.89);
 }
+
