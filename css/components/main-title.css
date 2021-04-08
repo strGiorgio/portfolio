@@ -1,0 +1,10 @@
+.main-title {
+    font-family: "Merriweather Sans";
+    font-weight: 800;
+    font-size: 124px;
+}
+
+.main-title._degrade{
+    color: rgb(23, 6, 27);
+    z-index: -1;
+}
