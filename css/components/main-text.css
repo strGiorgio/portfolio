@@ -1,0 +1,10 @@
+.main-text {
+    font-family: "Merriweather Sans", sans-serif;
+    color: #fff;
+}
+
+.main-text._text-menu {
+    position: absolute;
+    bottom: 20px;
+    letter-spacing: 4px;
+}

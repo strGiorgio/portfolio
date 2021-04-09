@@ -1,4 +1,6 @@
 .main-section{
+    display: flex;
+    flex-direction: column;
     background-color: #7D5CF2;
     min-height: 200px;
     border-bottom: 5px solid #000;
@@ -13,3 +15,12 @@
     align-items: center;
 }
 
+.main-section._banner .main-logo {
+    right: 15px;
+    top: 10px;
+    z-index: 0;
+}
+
+.main-section._about {
+    background-color: #282140;
+}
