@@ -22,5 +22,7 @@
 }
 
 .main-section._about {
-    background-color: #282140;
+    background: url(../../assets/images/SectionABOUT.png) repeat;
+    background-size: cover;
+    height: 792px;
 }

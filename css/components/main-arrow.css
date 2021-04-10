@@ -1,4 +1,4 @@
-.main-scroll {
+.main-arrow {
     position: absolute;
     bottom: 10px;
     height: 20px;
@@ -9,6 +9,6 @@
     transition: transform 100ms ease-in-out;
 }
 
-.main-scroll:hover {
+.main-arrow:hover {
     transform: rotate(-45deg) scale(1.10);
 }
