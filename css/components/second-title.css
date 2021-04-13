@@ -1,0 +1,18 @@
+.second-title {
+    font: 144px "Raleway", sans-serif;
+    color: #fff;
+    font-style: bold;
+    font-weight: 700;
+    opacity: 5%;
+}
+
+.second-title._about-title {
+    position: absolute;
+    top: 450px;
+    left: 166px;
+}
+
+.second-title._skills {
+    font-size: 100px;
+    opacity: 10%;
+}
