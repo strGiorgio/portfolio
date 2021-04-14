@@ -12,7 +12,14 @@
     left: 166px;
 }
 
-.second-title._skills {
+.second-title._knowledge {
     font-size: 100px;
+    opacity: 90%;
+    margin: 40px 25px;
+}
+
+.second-title._skills {
+    font-size: 60px;
     opacity: 10%;
+    margin: 10px 25px;
 }
