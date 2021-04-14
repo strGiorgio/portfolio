@@ -1,0 +1,8 @@
+.wrapper-skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper-skills .skills-items {
+    margin: 0px 50px 10px 0px;
+}
