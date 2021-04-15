@@ -16,6 +16,7 @@
 
 .main-progress::-webkit-progress-value {
     background-color: #7D5CF2;
+    border-radius: 7px;
 }
 
 .main-progress::-moz-progress-value {

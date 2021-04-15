@@ -1,8 +1,9 @@
 .wrapper-skills {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.wrapper-skills .skills-items {
+.wrapper-skills .skills-items:nth-child(odd) {
     margin: 0px 50px 10px 0px;
 }
