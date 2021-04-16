@@ -1,0 +1,13 @@
+.main-input {
+    background-color: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 21px;
+    width: 408px;
+    height: 43px;
+}
+
+.main-input._msg {
+    border-radius: 30px;
+    height: 302px;
+}

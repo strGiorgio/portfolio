@@ -1,0 +1,13 @@
+.main-button {
+    background-color: #493C73;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 21px;
+    border: none;
+    width: 408px;
+    height: 43px;
+
+    font: 24px "Merriweather Sans", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
