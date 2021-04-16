@@ -3,7 +3,10 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.wrapper-skills .skills-items {
+    margin-bottom: 15px;
+}
 
 .wrapper-skills .skills-items:nth-child(odd) {
-    margin: 0px 50px 10px 0px;
+    margin-right: 50px ;
 }
