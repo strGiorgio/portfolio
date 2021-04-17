@@ -36,4 +36,6 @@
 .main-section._contacts {
     background-color: #282140;
     border: none;
+    padding: 60px 110px 60px 0;
+    align-items: flex-end;
 }
