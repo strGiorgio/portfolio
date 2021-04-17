@@ -1,9 +1,13 @@
 .main-form {
     display: flex;
+    flex-direction: column;
     background-color: #7D5CF2;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #000;
     width: 488px;
     height: 672px;
+    align-items: center;
+    justify-content: center;
+    
 }
 

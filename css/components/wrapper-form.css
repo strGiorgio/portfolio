@@ -1,3 +1,4 @@
 .wrapper-form {
-   margin: 22px 45px 22px 35px;
+    display: flex;
+    flex-direction: column;
 }
