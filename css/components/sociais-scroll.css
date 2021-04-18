@@ -1,0 +1,9 @@
+.sociais-scroll {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7D5CF2;
+    height: 80px;
+    border-radius: 0 40px 40px 0;
+    padding: 0px 30px;
+}
