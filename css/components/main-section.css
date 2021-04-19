@@ -37,8 +37,8 @@
     background: url("../../assets/images/SectionCONTACTS.png");
     background-size: cover;
     flex-direction: row;
-    background-color: #282140;
     border: none;
     padding: 60px 50px 60px 20px;
     justify-content: space-between;
+    transition: 600ms ease-in-out;
 }
