@@ -34,7 +34,7 @@
 }
 
 .main-section._contacts {
-    background: url("../../assets/images/SectionCONTACTS.png");
+    background: url("../../assets/images/background.png");
     background-size: cover;
     flex-direction: row;
     border: none;
