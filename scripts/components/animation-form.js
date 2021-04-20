@@ -5,9 +5,9 @@ form.addEventListener('mouseover', formEntered);
 form.addEventListener('mouseout', formOut);
 
 function formEntered(){
-    background.style.background = "url('https://i.imgur.com/61ElS4l.png')"
+    background.style.backgroundImage = "url('https://i.imgur.com/61ElS4l.png')"
+    
 };
-
 function formOut(){
-    background.style.background = "url('https://i.imgur.com/nLNGlvi.png')"
+    background.style.backgroundImage = "url('https://i.imgur.com/nLNGlvi.png')"
 };
