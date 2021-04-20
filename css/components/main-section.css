@@ -22,7 +22,7 @@
 }
 
 .main-section._about {
-    background: url(../../assets/images/SectionABOUT.png) repeat;
+    background: url(../../assets/images/SectionABOUT.png);
     background-size: cover;
     height: 792px;
     border-color: #595959;
@@ -41,4 +41,7 @@
     padding: 60px 50px 60px 20px;
     justify-content: space-between;
     transition: 600ms ease-in-out;
+}
+
+.main-section._projects {
 }

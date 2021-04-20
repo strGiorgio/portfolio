@@ -1,14 +1,23 @@
 .main-arrow {
+    box-sizing: border-box;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff; 
+    width: 40px;
+    height: 40px;
     position: absolute;
-    bottom: 10px;
-    height: 20px;
-    width: 20px;
-    border-left: 4px solid #fff; 
-    border-bottom: 4px solid #fff;
-    transform: rotate(-45deg);
-    transition: transform 100ms ease-in-out;
+    opacity: 50%;
 }
 
 .main-arrow:hover {
-    transform: rotate(-45deg) scale(1.10);
+    opacity: 100%;
+}
+
+.main-arrow._left {
+    transform: rotate(45deg);
+    left: 30px;
+}
+
+.main-arrow._right {
+    transform: rotate(-135deg);
+    right: 30px;
 }
