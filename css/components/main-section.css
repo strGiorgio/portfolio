@@ -1,6 +1,4 @@
 .main-section{
-    display: flex;
-    flex-direction: column;
     background-color: #7D5CF2;
     min-height: 200px;
     border-bottom: 5px solid #000;
@@ -10,6 +8,7 @@
 
 .main-section._banner{
     display: flex;
+    flex-direction: column;
     height: 90vh;
     justify-content: center;
     align-items: center;
@@ -22,6 +21,8 @@
 }
 
 .main-section._about {
+    display: flex;
+    flex-direction: column;
     background: url(../../assets/images/SectionABOUT.png);
     background-size: cover;
     height: 792px;
@@ -31,9 +32,11 @@
 .main-section._knowledge {
     background-color: #0D0D0D;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .main-section._contacts {
+    display: flex;
     background: url("https://i.imgur.com/nLNGlvi.png");
     background-size: cover;
     flex-direction: row;
@@ -44,4 +47,6 @@
 }
 
 .main-section._projects {
+    height: 400px;
+    transition: 2900ms;
 }
