@@ -1,7 +1,7 @@
 .main-progress {
     box-sizing: border-box;
     width: 500px;
-    border: 2px solid #000;
+    border: 2px solid #0D0D0D;
     border-radius: 7px;
 }
 
@@ -12,6 +12,7 @@
 
 .main-progress::-moz-progress-bar {
     background-color: #7D5CF2;
+    
 }
 
 .main-progress::-webkit-progress-value {
