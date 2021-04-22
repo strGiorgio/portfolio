@@ -12,7 +12,7 @@
     left: 166px;
 }
 
-.second-title._knowledge {
+.second-title._knowledge-title {
     font-size: 100px;
     opacity: 90%;
     margin: 40px 25px;
@@ -23,4 +23,10 @@
     opacity: 10%;
     margin-bottom: 25px;
     text-align: center;
+}
+
+.second-title._projects {
+    font-size: 60px;
+    color: #000;
+    opacity: 10%;
 }

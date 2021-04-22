@@ -1,0 +1,16 @@
+.box-projects {
+    background-color: rgb(217, 189, 250);
+    width: 99%;
+    height: 98%;
+    margin: auto;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.box-projects .second-title._projects-title {
+    font-size: 120px;
+    position: absolute;
+    color: #000;
+    bottom: 50px;
+    left: 50px;
+}

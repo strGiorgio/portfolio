@@ -6,6 +6,7 @@
     height: 40px;
     position: absolute;
     opacity: 50%;
+    top: 47%;
 }
 
 .main-arrow:hover {
@@ -14,10 +15,12 @@
 
 .main-arrow._left {
     transform: rotate(45deg);
-    left: 30px;
+    left: 40px;
+    box-shadow: -2px 3px 2px rgba(0, 0, 0, 0.534);
 }
 
 .main-arrow._right {
     transform: rotate(-135deg);
-    right: 30px;
+    right: 40px;
+    box-shadow: -2px 3px 2px rgba(0, 0, 0, 0.534);
 }
