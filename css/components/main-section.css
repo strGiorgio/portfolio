@@ -49,7 +49,7 @@
 .main-section._projects {
     display: flex;
     height: 700px;
-    transition: 900ms;
+    transition: 2000ms;
     box-sizing: content-box;
     background-color: #0d0d0d;
 }

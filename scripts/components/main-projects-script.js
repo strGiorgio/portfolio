@@ -34,7 +34,7 @@ function changeBg() {
         //Python Projects
         //background
         background.style.background= '#0d0d0d'
-        boxBg.style.background= '#717777'
+        boxBg.style.background= 'linear-gradient(#717777, #353535)'
         //image
         imgBg.style.background= '#363436'
         img.setAttribute('src', 'link')
@@ -48,7 +48,7 @@ function changeBg() {
         //GitHub Projects
         //background
         background.style.background= '#13273a'
-        boxBg.style.background= '#64809b'
+        boxBg.style.background= 'linear-gradient(#64809b, #293846)'
         //image
         imgBg.style.background= '#13273a'
         img.setAttribute('src', 'link')
@@ -61,8 +61,8 @@ function changeBg() {
     else {
         //Projects
         //background
-        background.style.background= '#b8b8b8'
-        boxBg.style.background= 'aliceblue'
+        background.style.background= '#a8a8a8'
+        boxBg.style.background= 'linear-gradient(aliceblue, #8f8f8f)'
         //image
         imgBg.style.background= '#b8b8b8'
         img.setAttribute('src', 'link')
