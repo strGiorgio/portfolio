@@ -5,13 +5,14 @@
 }
 
 .main-projects .second-title._projects {
+    color: #000;
     text-align: center;
     margin: 60px 0 30px 0;
 }
 
 .main-projects .wrapper-img {
     display: flex;
-    background-color: #000;
+    background-color: #363436;
     border-radius: 10px;
     height: 250px;
     width: 350px;
