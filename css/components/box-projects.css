@@ -1,16 +1,17 @@
 .box-projects {
-    background: linear-gradient(#717777, #353535);
-    width: 99%;
-    height: 98%;
-    margin: auto;
+    display: flex;
+    flex: none;
+    background-color: #fff;
+    width: 90%;
+    
     align-self: center;
-    border-radius: 10px;
+    margin-left: 10px;
 }
 
-.box-projects .second-title._projects-title {
-    font-size: 120px;
-    position: absolute;
-    color: #000;
-    bottom: 50px;
-    left: 50px;
+.box-projects._secondP {
+    background-color: red;
+}
+
+.box-projects._thirdP {
+ background-color: blue;
 }
