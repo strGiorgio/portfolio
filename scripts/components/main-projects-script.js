@@ -28,22 +28,21 @@ function changeBg() {
 
     if (n == 0) {
         //Python Projects
-        background.style.background= '#0d0d0d'
-        gridProject.style.left = '-1327px'
+        background.style.background= '#040718'
+        gridProject.style.left = '-1197px'
        
     } 
     else if (n == 1) {
-        //GitHub Projects
+        //Others Projects
         background.style.background= '#13273a'
-        gridProject.style.left = '-2705px'
+        gridProject.style.left = '-2445px'
        
         
     } 
     else {
-        //Projects
-        background.style.background= '#a8a8a8'
+        //GitHub
+        background.style.background= '#030910'
         gridProject.style.left = '50px'
-        
         
     }
 }
