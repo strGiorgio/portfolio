@@ -36,7 +36,6 @@ function changeBg() {
         //Others Projects
         background.style.background= '#13273a'
         gridProject.style.left = '-2445px'
-       
         
     } 
     else {
