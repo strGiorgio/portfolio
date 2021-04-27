@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/main-header.css">
     <link rel="stylesheet" href="css/components/second-logo.css">
-    <link rel="stylesheet" href="css/components/main-nav.css">
     <link rel="stylesheet" href="css/components/main-action.css">
     <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/wrapper-title.css">
@@ -40,7 +39,6 @@
     <link rel="stylesheet" href="css/components/main-icons.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/sociais-scroll.css">
-
     <link rel="stylesheet" href="css/components/wrapper-projects.css">
     <link rel="stylesheet" href="css/components/box-projects.css">
     <link rel="stylesheet" href="css/components/wrapper-arrow.css">
@@ -53,15 +51,15 @@
     <header class="main-header">
         <img class="second-logo" src="assets/images/logoPurple.png" alt="Logo StrGiorgio">
         <nav class="main-nav">
-            <a class="main-action" href="" lang="en">HOME</a>
-            <a class="main-action" href="" lang="en">ABOUT ME</a>
-            <a class="main-action" href="" lang="en">KNOWLEDGE</a>
-            <a class="main-action" href="" lang="en">PROJECTS</a>
-            <a class="main-action _contact" href="" lang="en">CONTACTS</a>
+            <a class="main-action" href="#banner" lang="en">HOME</a>
+            <a class="main-action" href="#about" lang="en">ABOUT ME</a>
+            <a class="main-action" href="#knowledge" lang="en">KNOWLEDGE</a>
+            <a class="main-action" href="#projects" lang="en">PROJECTS</a>
+            <a class="main-action _contact" href="#contact" lang="en">CONTACTS</a>
         </nav>
     </header>
     <!--Section Banner-->
-    <section class="main-section _banner">
+    <section id="banner" class="main-section _banner">
         <div class="wrapper-title">
             <img src="assets/images/StrGIORGIO.png" alt="logomarca strGiorgio">
             <h1 class="main-title _degrade">StrGIORGIO</h1>
@@ -73,7 +71,7 @@
         <a href=""><span class="second-arrow"></span></a>
     </section>
     <!--Section About-->
-    <section class="main-section _about">
+    <section id="about" class="main-section _about">
         <h2 class="second-title _about-title" lang="en">ABOUT ME</h2>
         <div class="wrapper-text">
         <p class="main-text _first" lang="en">Hey,<br>I'm StrGiorgio,<br>FullStack Developer,</p>
@@ -84,7 +82,7 @@
         </div>
     </section>
     <!--Section knowledge-->
-    <section class="main-section _knowledge">
+    <section id="knowledge" class="main-section _knowledge">
         <h2 class="second-title _knowledge-title" lang="en">KNOWLEDGE</h2>
         <div class="wrapper-knowledge ">
             <article class="knowledge-items">
@@ -154,7 +152,7 @@
         </div>  
     </section>
     <!--Section Projects-->
-    <section class="main-section _projects">
+    <section id="projects" class="main-section _projects">
         <nav>
             <span class="main-arrow _left" onclick="lClick()"></span>
             <span class="main-arrow _right" onclick="rClick()"></span>
@@ -163,8 +161,9 @@
         <div class="wrapper-projects">
             <article class="box-projects _firstP">
                 <h3 class="second-title _projects _project2">GitHub</h3>
-                <div>
+                <div class="wrapper-img-text">
                     <img class="main-image _project2" src="assets/imgsProjects/project2.png" alt="">
+                    <p class="main-text _project1" style="color: #000;">Projetos feitos com Python, HTML5, CSS3 e JavaScript.</p>
                 </div>
                 <p class="main-text _project2">Alguns dos meus Repositórios no GitHub contém projetos que faço e irei fazer com o tempo. </p>
             </article>
@@ -179,15 +178,15 @@
             </article>
 
             <article class="box-projects _thirdP">
-                <h3 class="second-title _projects">Others Projects</h3>
+                <h3 class="second-title _projects _project1">Others Projects</h3>
                     <div><img src="" alt=""></div>
-                <p>texto aqui...</p>
+                <p class="main-text _project1">Em construção.</p>
             </article>
         </div>
         
     </section>
     <!--Section contacts-->
-    <section class="main-section _contacts">
+    <section id="contact" class="main-section _contacts">
         <h2 class="second-title" lang="en">CONTACTS</h2>
         <form class="main-form" action="" >
             <fieldset>
