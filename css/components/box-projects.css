@@ -4,6 +4,7 @@
     align-self: center;
     border-radius: 2%;
     position: relative;
+
 }
 
 .box-projects._secondP {
@@ -11,7 +12,7 @@
 }
 
 .box-projects._thirdP {
- background-color: blue;
+    background-color: blue;
 }
 
 .box-projects .second-title._projects._project1, .second-title._projects._project2 {
