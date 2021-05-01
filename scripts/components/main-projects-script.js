@@ -29,19 +29,19 @@ function changeBg() {
     if (n == 0) {
         //Python Projects
         background.style.background= '#040718'
-        gridProject.style.left = '-1197px'
+        gridProject.style.left = '-85.5vw'
        
     } 
     else if (n == 1) {
         //Others Projects
         background.style.background= '#13273a'
-        gridProject.style.left = '-2445px'
+        gridProject.style.left = '-174.6vw'
         
     } 
     else {
         //GitHub
         background.style.background= '#030910'
-        gridProject.style.left = '50px'
+        gridProject.style.left = '3.5vw'
         
     }
 }
