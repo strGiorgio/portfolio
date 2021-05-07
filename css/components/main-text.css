@@ -33,3 +33,7 @@
 .main-text._fourth {
     font: 30px "Raleway", sans-serif;
 }
+
+.main-text::selection{
+    background-color: #7D5CF2;
+}
