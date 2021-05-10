@@ -1,14 +1,19 @@
 .main-header {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    display: flex;
     background-color: #0D0D0D;
-    align-items: center;
     position: sticky;
     top: -15px;
     z-index: 3;
+    justify-self: center;
 }
 
-.main-header .main-nav {
-    justify-self: center;
-    
+.main-header .wrapper-nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header nav:nth-of-type(1) {
+    margin: auto;
 }

@@ -1,5 +1,5 @@
 .second-title {
-    font: 144px "Raleway", sans-serif;
+    font: 14.4rem "Raleway", sans-serif;
     color: #fff;
     font-style: bold;
     font-weight: 700;
@@ -9,24 +9,24 @@
 .second-title._about-title {
     position: absolute;
     top: 450px;
-    left: 166px;
+    left: 16.6rem;
 }
 
 .second-title._knowledge-title {
-    font-size: 100px;
+    font-size: 10rem;
     opacity: 90%;
     margin: 40px 25px;
 }
 
 .second-title._skills {
-    font-size: 60px;
+    font-size: 6.0rem;
     opacity: 10%;
     margin-bottom: 25px;
     text-align: center;
 }
 
 .second-title._projects {
-    font-size: 60px;
+    font-size: 6.0rem;
     color: #000;
     opacity: 10%;
 }
