@@ -1,0 +1,12 @@
+@media (max-width: 1068px) {
+    body .wrapper-skills .skills-items:nth-child(odd) {
+        margin-right: 0 ;
+    }
+}
+
+
+@media (max-width: 900px) {
+    html {
+        font-size: 50%;
+    }
+}
