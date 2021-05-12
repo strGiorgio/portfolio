@@ -1,0 +1,16 @@
+.main-menu {
+    display: none;
+    width: 50px;
+    position: absolute;
+    right: 35px;
+    top: 23px;
+}
+
+.main-menu .menu-bar.one, .main-menu .menu-bar.two, .main-menu .menu-bar.three{
+    background-color: #fff;
+    width: 60px;
+    height: 4px;
+    margin-bottom: 8px;
+}
+
+
