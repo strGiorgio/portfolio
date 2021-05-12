@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 400px;
-    margin: 0px 30px 50px;
+    margin: 0 30px 50px 30px;
 }
 
 .knowledge-items .third-title._knowledge {

@@ -4,9 +4,27 @@
     }
 }
 
-
-@media (max-width: 900px) {
+@media (max-width: 920px) {
     html {
         font-size: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    html>body>.wrapper-title {
+        font-size: 30%;
+    }
+    body .wrapper-knowledge .knowledge-items {
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 730px) {
+    body nav {
+        display: none;
+    }
+
+    body .main-menu {
+        display: block;
     }
 }

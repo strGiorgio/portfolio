@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/components/main-header.css">
     <link rel="stylesheet" href="css/components/second-logo.css">
     <link rel="stylesheet" href="css/components/main-action.css">
+    <link rel="stylesheet" href="css/components/main-menu.css">
     <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/wrapper-title.css">
     <link rel="stylesheet" href="css/components/main-title.css">
@@ -33,23 +34,30 @@
     <link rel="stylesheet" href="css/components/skills-items.css">
     <link rel="stylesheet" href="css/components/third-title.css">
     <link rel="stylesheet" href="css/components/main-progress.css">
+    <link rel="stylesheet" href="css/components/wrapper-contacts.css">
     <link rel="stylesheet" href="css/components/main-form.css">
     <link rel="stylesheet" href="css/components/wrapper-form.css">
     <link rel="stylesheet" href="css/components/form-items.css">
     <link rel="stylesheet" href="css/components/main-input.css">
     <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/main-button.css">
-    <link rel="stylesheet" href="css/components/main-icons.css">
-    <link rel="stylesheet" href="css/components/main-footer.css">
-    <link rel="stylesheet" href="css/components/sociais-scroll.css">
     <link rel="stylesheet" href="css/components/wrapper-projects.css">
     <link rel="stylesheet" href="css/components/box-projects.css">
     <link rel="stylesheet" href="css/components/wrapper-arrow.css">
     <link rel="stylesheet" href="css/components/main-arrow.css">
     <link rel="stylesheet" href="css/components/main-image.css">
+    <link rel="stylesheet" href="css/components/main-icons.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/sociais-scroll.css">
 </head>
 <body>
     <header class="main-header">
+        <div class='main-menu'>
+            <div class="menu-bar one"></div>
+            <div class="menu-bar two"></div>
+            <div class="menu-bar three"></div>
+        </div>
+
         <div class="wrapper-nav">
             <img class="second-logo" src="assets/images/logoPurple.png" alt="Logo StrGiorgio">
             <nav class="main-nav">
@@ -87,7 +95,7 @@
     <!--Section knowledge-->
     <section id="knowledge" class="main-section _knowledge">
         <h2 class="second-title _knowledge-title" lang="en">KNOWLEDGE</h2>
-        <div class="wrapper-knowledge ">
+        <div class="wrapper-knowledge">
             <article class="knowledge-items">
                 <h3 class="third-title _knowledge">Marketing Digital</h3>
                 <p class="main-text _second">Fiz um curso de Introdução ao marketing Digital no site do Google Atêlie,
@@ -187,24 +195,26 @@
     </section>
     <!--Section contacts-->
     <section id="contact" class="main-section _contacts">
-        <h2 class="second-title" lang="en">CONTACTS</h2>
-        <form class="main-form" action="" >
-            <fieldset>
-                <div class="form-items">
-                    <label class="main-label" for="name">Nome:</label>
-                    <input class="main-input" id="name" type="text" required minlength="2" maxlength="30">
-                </div>
-                <div class="form-items">
-                    <label class="main-label" for="email">Email:</label>
-                    <input class="main-input" id="email" type="email" required minlength="2" maxlength="38">
-                </div>
-            </fieldset>
-            <fieldset class="form-items">
-                <label class="main-label" for="textarea">Mensagem:</label>
-                <textarea class="main-input _msg" id="textarea" required minlength="2" maxlength="500"></textarea>   
-            </fieldset>
-            <button class="main-button" type="submit">ENVIAR</button>
-        </form>
+        <div class="wrapper-contacts">
+            <h2 class="second-title" lang="en">CONTACTS</h2>
+            <form class="main-form" action="" >
+                <fieldset>
+                    <div class="form-items">
+                        <label class="main-label" for="name">Nome:</label>
+                        <input class="main-input" id="name" type="text" required minlength="2" maxlength="30">
+                    </div>
+                    <div class="form-items">
+                        <label class="main-label" for="email">Email:</label>
+                        <input class="main-input" id="email" type="email" required minlength="2" maxlength="38">
+                    </div>
+                </fieldset>
+                <fieldset class="form-items">
+                    <label class="main-label" for="textarea">Mensagem:</label>
+                    <textarea class="main-input _msg" id="textarea" required minlength="2" maxlength="500"></textarea>   
+                </fieldset>
+                <button class="main-button" type="submit">ENVIAR</button>
+            </form>
+        </div>
     </section>
 
     <footer class="main-footer">

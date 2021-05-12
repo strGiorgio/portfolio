@@ -46,11 +46,10 @@
 
 .main-section._contacts {
     display: flex;
+    justify-content: center;
     background: url("https://i.imgur.com/nLNGlvi.png");
     background-size: cover;
     border: none;
     padding: 60px 0;
-    justify-content: space-around;
-    flex-wrap: wrap;
     transition: 600ms ease-in-out;
 }
