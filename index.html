@@ -52,20 +52,21 @@
 </head>
 <body>
     <header class="main-header">
-        <div class='main-menu'>
+        <div class="main-menu" onclick="menuAction()">
             <div class="menu-bar one"></div>
             <div class="menu-bar two"></div>
             <div class="menu-bar three"></div>
         </div>
+       
 
         <div class="wrapper-nav">
             <img class="second-logo" src="assets/images/logoPurple.png" alt="Logo StrGiorgio">
             <nav class="main-nav">
-                <a class="main-action" href="#banner" lang="en">HOME</a>
-                <a class="main-action" href="#about" lang="en">ABOUT ME</a>
-                <a class="main-action" href="#knowledge" lang="en">KNOWLEDGE</a>
-                <a class="main-action" href="#projects" lang="en">PROJECTS</a>
-                <a class="main-action _contact" href="#contact" lang="en">CONTACTS</a>
+                <a class="main-action" href="#banner" lang="en" onclick="closeMenu()">HOME</a>
+                <a class="main-action" href="#about" lang="en" onclick="closeMenu()">ABOUT ME</a>
+                <a class="main-action" href="#knowledge" lang="en" onclick="closeMenu()">KNOWLEDGE</a>
+                <a class="main-action" href="#projects" lang="en" onclick="closeMenu()">PROJECTS</a>
+                <a class="main-action _contact" href="#contact" lang="en" onclick="closeMenu()">CONTACTS</a>
             </nav>
         </div>
     </header>
@@ -234,6 +235,7 @@
         <p class="main-text _third">strGiorgio© 2021</p>
     </footer>
 
+    <script src="scripts/components/main-menu.js"></script>
     <script src="scripts/components/main-projects-script.js"></script>
     <script src="scripts/components/animation-form.js"></script>
 </body>

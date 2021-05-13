@@ -4,6 +4,12 @@
     position: absolute;
     right: 35px;
     top: 23px;
+    opacity: 100%;
+    z-index: 10;
+}
+
+.main-menu:hover {
+    opacity: 60%;
 }
 
 .main-menu .menu-bar.one, .main-menu .menu-bar.two, .main-menu .menu-bar.three{
@@ -11,6 +17,18 @@
     width: 60px;
     height: 4px;
     margin-bottom: 8px;
+}
+
+.main-menu.on .menu-bar.one {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+
+.main-menu.on .menu-bar.two {
+    display: none;
+}
+
+.main-menu.on .menu-bar.three {
+    transform: rotate(-45deg);
 }
 
 
