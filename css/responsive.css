@@ -27,4 +27,52 @@
     body .main-menu {
         display: block;
     }
+
+    body .second-title._about-title {
+        font-size: 11.52rem;
+    }
+    body .second-title {
+        font-size: 11.52rem;
+    }
+}
+
+@media (max-width: 690px) {
+    body .wrapper-title .image-title {
+        width: 68.8rem;
+    }
+
+    body .wrapper-title .main-title {
+        font-size: 11.52rem;
+    }
+    body .main-footer {
+        text-align: center;
+    }
+
+    body .sociais-scroll {
+        display: none;
+    }
+
+}
+
+@media (max-width: 560px) {
+    body .wrapper-title .image-title {
+        width: 48.16rem;
+    }
+
+    body .wrapper-title .main-title {
+        font-size: 8.064rem;
+    }
+
+    body .second-title._about-title {
+        font-size: 8.064rem;
+    }
+    body .second-title {
+        font-size: 8.064rem;
+    }
+
+    body .second-title._knowledge-title {
+        font-size: 7rem;
+        text-align: center;
+    }
+    
 }
