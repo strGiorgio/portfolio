@@ -52,6 +52,10 @@
         display: none;
     }
 
+    body .main-footer .sociais-alt {
+        display: block;
+    }
+
 }
 
 @media (max-width: 560px) {
