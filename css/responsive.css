@@ -107,6 +107,10 @@
         font-size: 6.20rem;
     }
 
+    body .main-icons {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 @media (max-width: 320px) {

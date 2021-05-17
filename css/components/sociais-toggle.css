@@ -1,0 +1,12 @@
+.sociais-toggle {
+    display: flex;
+    background-color: rgb(141, 141, 141);
+    height: 15vh;
+    position: relative;
+    justify-content: center;
+}
+
+.sociais-toggle .wrapper-sociais {
+    margin: auto auto;
+    flex-wrap: wrap;
+}

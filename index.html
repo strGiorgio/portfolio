@@ -46,6 +46,7 @@
     <link rel="stylesheet" href="css/components/wrapper-arrow.css">
     <link rel="stylesheet" href="css/components/main-arrow.css">
     <link rel="stylesheet" href="css/components/main-image.css">
+    <link rel="stylesheet" href="css/components/sociais-toggle.css">
     <link rel="stylesheet" href="css/components/main-icons.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/sociais-scroll.css">
@@ -218,6 +219,21 @@
         </div>
     </section>
 
+    <section class="sociais-toggle">
+        <div class="wrapper-sociais">
+            <a href="https://twitter.com/UselessAle" target="_blank" rel="external"><img class="main-icons" src="assets/icons/twitter.png" alt="Logo com link para Twitter"></a>
+
+            <a href="https://github.com/strGiorgio" target="_blank" rel="external"><img class="main-icons" src="assets/icons/github.png" alt="logo com link para github"></a>
+
+            <a href=""><img class="main-icons" src="assets/icons/youtube.png" alt="logo com link para youtube"></a>
+
+            <a href="https://www.instagram.com/aleeefe/" target="_blank" rel="external"><img class="main-icons" src="assets/icons/instagram.png" alt="logo com link para instagram"></a>
+
+            <a href="https://discord.gg/66wzSfrY" target="_blank" rel="external"><img class="main-icons" src="assets/icons/discord.png" alt="logo com link para discord"></a>
+        </div>
+        <span class="second-arrow" onclick="menuClose()"></span>
+    </section>
+
     <footer class="main-footer">
         <div class="sociais-scroll">
             <div class="wrapper-sociais">
@@ -233,9 +249,7 @@
             </div>
         </div>
 
-        <div>
-            <span class="sociais-alt">Sociais</span>
-        </div>    
+        <div class="sociais-alt" onclick="menuOpen()">Sociais</div>    
 
         <p class="main-text _third">strGiorgio© 2021</p>
     </footer>
@@ -243,5 +257,6 @@
     <script src="scripts/components/main-menu.js"></script>
     <script src="scripts/components/main-projects-script.js"></script>
     <script src="scripts/components/animation-form.js"></script>
+    <script src="scripts/components/sociais-menu.js"></script>
 </body>
 </html>
