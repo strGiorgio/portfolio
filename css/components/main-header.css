@@ -5,6 +5,8 @@
     top: -15px;
     z-index: 3;
     justify-self: center;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .main-header .wrapper-nav {
