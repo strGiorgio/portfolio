@@ -23,25 +23,32 @@ function rClick() {
 }
 
 function changeBg() {
-    var background = document.querySelector('.main-section._projects')
-    var gridProject = document.querySelector('.wrapper-projects')
+    const background = document.querySelector('.main-section._projects')
+
+    const projects1 = document.querySelector('.project-one'); 
+    const projects2 = document.querySelector('.project-two');
+    const projects3 = document.querySelector('.project-three');
+
 
     if (n == 0) {
         //Python Projects
-        background.style.background= '#06395C'
-        gridProject.style.left = '-85.5vw'
-       
+        background.style.background= '#0C141D'
+        projects1.style.display = "block"
+        projects2.style.display = "none"
+        projects3.style.display = "none"
     } 
     else if (n == 1) {
         //Others Projects
         background.style.background= '#026697'
-        gridProject.style.left = '-174.6vw'
-        
+        projects1.style.display = "none"
+        projects2.style.display = "block"
+        projects3.style.display = "none"
     } 
     else {
         //GitHub
         background.style.background= '#7555EE'
-        gridProject.style.left = '3.5vw'
-        
+        projects1.style.display = "none"
+        projects2.style.display = "none"
+        projects3.style.display = "block"
     }
 }
