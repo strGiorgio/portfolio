@@ -13,6 +13,12 @@
 
     <title>StrGiorgio Portfólio</title>
 
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
     <link rel="stylesheet" href="css/components/change-idiom.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
@@ -42,8 +48,7 @@
     <link rel="stylesheet" href="css/components/main-input.css">
     <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/main-button.css">
-    <link rel="stylesheet" href="css/components/wrapper-projects.css">
-    <link rel="stylesheet" href="css/components/box-projects.css">
+    <link rel="stylesheet" href="css/components/projects-styles.css">
     <link rel="stylesheet" href="css/components/wrapper-arrow.css">
     <link rel="stylesheet" href="css/components/main-arrow.css">
     <link rel="stylesheet" href="css/components/main-image.css">
@@ -167,6 +172,7 @@
             </article>
         </div>  
     </section>
+
     <!--Section Projects-->
     <section id="projects" class="main-section _projects">
         <nav>
@@ -174,33 +180,28 @@
             <span class="main-arrow _right" onclick="rClick()"></span>
         </nav>
 
-        <div id="project1" class="wrapper-projects">
-            <article class="box-projects _firstP">
-                <h3 class="second-title _projects _project2">GitHub</h3>
-                <div class="wrapper-img-text">
-                    <img class="main-image _project2" src="assets/imgsProjects/project2.png" alt="">
-                    <p class="main-text _project1" style="color: #000;">Projetos feitos com Python, HTML5, CSS3 e JavaScript.</p>
-                </div>
-                <p class="main-text _project2">Alguns dos meus Repositórios no GitHub contém projetos que faço e irei fazer com o tempo. </p>
-            </article>
-
-            <article class="box-projects _secondP">
-                <h3 class="second-title _projects _project1">PyMob</h3>
-                <div class="wrapper-img-text">
-                    <img class="main-image _project1" src="assets/imgsProjects/project1.png" alt="Foto do código do mini-game PyMob">
-                    <p class="main-text _project1">PyMob é mini-game criado por mim totalmente em python! Ele consiste em uma jogo de mecânica simples, como por exemplos decisões de atacar, ou regenerar. Usa algumas bibliotecas Python para melhor experiência. Atualmente o jogo está na versão 1.0 e pretendo atualiza-lô até a versão 5.0.</p>
-                </div>
-                <img class="main-image _project1" src="assets/imgsProjects/project1-2.png" alt="">
-            </article>
-
-            <article class="box-projects _thirdP">
-                <h3 class="second-title _projects _project1">Others Projects</h3>
-                    <div><img src="" alt=""></div>
-                <p class="main-text _project1">Em construção.</p>
-            </article>
+        <div class="project-one">
+            <div class="desc-project">
+                <h1>GITHUB</h1>
+                <p>Alguns de meus projetos estão em repositórios remotos no meu github!</p>
+                <a href="https://github.com/strGiorgio" target="_blank" class="arrow-project1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                    </svg>
+                </a>
+            </div>
+            <img class="image1-project" src="assets/imgsProjects/project2.png" alt="">
         </div>
-        
+
+        <div class="project-two">
+            <h1>Project 2</h1>
+        </div>
+
+        <div class="project-three">
+            <h1>Project 3</h1>
+        </div>
     </section>
+
     <!--Section contacts-->
     <section id="contact" class="main-section _contacts">
         <div class="wrapper-contacts">
