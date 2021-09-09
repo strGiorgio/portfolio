@@ -1,0 +1,49 @@
+.project-one {
+    display: flex;
+    width: 80%;
+    height: 70%;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-one .desc-project {
+    padding: 30px;
+    max-width: 600px;
+    background-color: #ffffff;
+    opacity: 50%;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 100px);
+}
+
+.project-one h1 {
+    font: 2rem "Merriweather Sans";
+    color: #000;
+}
+
+.project-one .desc-project p {
+    font: 1.8rem "Raleway", sans-serif;
+    color: #000;
+}
+
+.project-one .arrow-project1 {
+    float: right;
+}
+
+.project-one .image1-project {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+.project-two {
+    display: none;
+}
+
+.project-three {
+    display: none;
+}
