@@ -16,34 +16,73 @@
     top: calc(50% - 100px);
 }
 
-.project-one h1 {
+.desc-project h1 {
     font: 2rem "Merriweather Sans";
     color: #000;
 }
 
-.project-one .desc-project p {
+.desc-project p {
     font: 1.8rem "Raleway", sans-serif;
     color: #000;
 }
 
-.project-one .arrow-project1 {
+.project-one .arrow-project {
     float: right;
 }
 
-.project-one .image1-project {
+.image-project {
     width: 100%;
     height: 100%;
 }
 
 
-
-
-
-
 .project-two {
     display: none;
+    width: 80%;
+    height: 70%;
+    position: relative;
+    overflow: hidden;
 }
+
+.project-two .desc-project .arrow-slide-top {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: .9s;
+}
+
+.project-two .desc-project {
+    background-color: #ffffff;
+    opacity: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+    transform: translateY(130px);
+    transition: .8s;
+}
+
+.project-two .desc-project:hover {
+    transform: translateY(0);
+}
+
+.project-two .desc-project:hover .arrow-slide-top {
+    transform: rotate(180deg);
+}
+
 
 .project-three {
     display: none;
 }
+
+.project-two h1, p {
+    text-align: center;
+}
+
+.project-two a {
+    text-decoration: none;
+    font: 1.8rem "Raleway", sans-serif;
+    float: right;
+}
+
+
