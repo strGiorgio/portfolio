@@ -17,6 +17,11 @@
     body .wrapper-knowledge .knowledge-items {
         margin: 30px auto;
     }
+
+    body .project-two .desc-project {
+        bottom: 0;
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 750px) {
