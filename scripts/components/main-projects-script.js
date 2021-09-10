@@ -33,15 +33,15 @@ function changeBg() {
     if (n == 0) {
         //Python Projects
         background.style.background= '#0C141D'
-        projects1.style.display = "block"
+        projects1.style.display = "flex"
         projects2.style.display = "none"
         projects3.style.display = "none"
     } 
     else if (n == 1) {
         //Others Projects
-        background.style.background= '#026697'
+        background.style.background= '#2A53DB'
         projects1.style.display = "none"
-        projects2.style.display = "block"
+        projects2.style.display = "flex"
         projects3.style.display = "none"
     } 
     else {
@@ -49,6 +49,6 @@ function changeBg() {
         background.style.background= '#7555EE'
         projects1.style.display = "none"
         projects2.style.display = "none"
-        projects3.style.display = "block"
+        projects3.style.display = "flex"
     }
 }
