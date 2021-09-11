@@ -76,6 +76,20 @@
         font-size: 7rem;
         text-align: center;
     }
+
+    body .project-three .desc-project, .project-three .alt-desc {
+        max-width: 100%;
+    }
+
+    body .project-three .desc-project {
+        top: 0;
+    }
+
+    body .project-three .alt-desc {
+        bottom: 0;
+        top: auto;
+        opacity: 50%;
+    }
     
 }
 
