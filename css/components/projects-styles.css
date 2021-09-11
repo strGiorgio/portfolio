@@ -16,18 +16,20 @@
     top: calc(50% - 100px);
 }
 
+
+.project-one .arrow-project {
+    float: right;
+}
+
 .desc-project h1 {
     font: 2rem "Merriweather Sans";
     color: #000;
 }
 
-.desc-project p {
+
+.desc-project p, .alt-desc p {
     font: 1.8rem "Raleway", sans-serif;
     color: #000;
-}
-
-.project-one .arrow-project {
-    float: right;
 }
 
 .image-project {
@@ -70,11 +72,6 @@
     transform: rotate(180deg);
 }
 
-
-.project-three {
-    display: none;
-}
-
 .project-two h1, p {
     text-align: center;
 }
@@ -83,6 +80,53 @@
     text-decoration: none;
     font: 1.8rem "Raleway", sans-serif;
     float: right;
+}
+
+
+.project-three {
+    display: none;
+    width: 80%;
+    height: 70%;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-three .desc-project {
+    background-color: #000;
+    opacity: 60%;
+    max-width: 500px;
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+
+.project-three .alt-desc {
+    background-color: #000;
+    opacity: 60%;
+    max-width: 400px;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    padding: 30px;
+}
+
+.project-three .desc-project p, .desc-project h1, .alt-desc p {
+    color: #fff;
+}
+
+.project-three .desc-project h1 {
+    text-align: center;
+}
+
+.project-three a {
+    text-decoration: none;
+    font: 1.8rem "Raleway", sans-serif;
+    color: #5C4D42;
+    float: right;
+}
+
+.project-three a:hover {
+    color: rgb(127, 112, 255);
 }
 
 
