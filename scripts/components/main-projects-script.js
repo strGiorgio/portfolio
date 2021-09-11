@@ -46,7 +46,7 @@ function changeBg() {
     } 
     else {
         //GitHub
-        background.style.background= '#7555EE'
+        background.style.background= '#322D28'
         projects1.style.display = "none"
         projects2.style.display = "none"
         projects3.style.display = "flex"
