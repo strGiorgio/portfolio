@@ -25,7 +25,7 @@
 }
 
 @media (max-width: 750px) {
-    body nav {
+    body header nav {
         display: none;
     }
 
@@ -59,6 +59,11 @@
 
     body .main-footer .sociais-alt {
         display: block;
+    }
+
+    body .main-arrow {
+        width: 20px;
+        height: 20px;
     }
 
 }
