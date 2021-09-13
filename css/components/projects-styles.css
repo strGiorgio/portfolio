@@ -72,7 +72,7 @@
     transform: rotate(180deg);
 }
 
-.project-two h1, p {
+.project-two h1, .project-two p {
     text-align: center;
 }
 
