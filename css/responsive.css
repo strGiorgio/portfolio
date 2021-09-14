@@ -11,6 +11,14 @@
 }
 
 @media (max-width: 768px) {
+    body header nav {
+        display: none;
+    }
+
+    body .main-menu {
+        display: block;
+    }
+
     html>body>.wrapper-title {
         font-size: 30%;
     }
@@ -22,20 +30,17 @@
         bottom: 0;
         transform: translateY(0);
     }
+
+    body .change-idiom {
+        right: 100px;
+    }
 }
 
 @media (max-width: 750px) {
-    body header nav {
-        display: none;
-    }
-
-    body .main-menu {
-        display: block;
-    }
-
     body .second-title._about-title {
         font-size: 11.52rem;
     }
+    
     body .second-title {
         font-size: 11.52rem;
     }
