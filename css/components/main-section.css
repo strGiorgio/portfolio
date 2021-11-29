@@ -4,6 +4,7 @@
     border-bottom: 5px solid #000;
     box-sizing: border-box;
     position: relative;
+    overflow-x: hidden;
 }
 
 .main-section._banner{
