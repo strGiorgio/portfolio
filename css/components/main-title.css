@@ -10,5 +10,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 2;
+    transform: translateX(-700px);
+    animation: slide 2s forwards;
 }
+
+@keyframes slide {
+    to {
+        transform: translateX(0);
+    }
+}
+
+
 
