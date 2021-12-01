@@ -1,0 +1,9 @@
+.animation-on {
+    animation: animationScroll 5s forwards;
+}
+
+@keyframes animationScroll {
+    to {
+        transform: translate(0);
+    }
+}
