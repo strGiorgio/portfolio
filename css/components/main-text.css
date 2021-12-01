@@ -5,11 +5,16 @@
     color: #fff;
 }
 
+.main-text._about-text {
+    transform: translateX(550px);
+}
+
 .main-text._first {
     font: 7.2rem "Raleway", sans-serif;
     font-weight: 800;
     line-height: 8.5rem;
     margin-bottom: 13px;
+    transform: translateX(-550px);
 }
 
 .main-text._text-menu {
