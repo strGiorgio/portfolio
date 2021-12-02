@@ -2,6 +2,16 @@
     animation: animationScroll 5s forwards;
 }
 
+.animation-opacity {
+    animation: opacity 10s forwards;
+}
+
+@keyframes opacity {
+    to {
+        opacity: 100%;
+    }
+}
+
 @keyframes animationScroll {
     to {
         transform: translate(0);
