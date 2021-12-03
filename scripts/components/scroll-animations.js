@@ -5,6 +5,8 @@ const aboutText = document.querySelector('.main-text._about-text')
 const knowledgeTitle = document.querySelector('.second-title._knowledge-title')
 const knowledgeItems = document.querySelectorAll('.knowledge-items')
 
+const skillsTitle = document.querySelector('.second-title._skills')
+
 //FUNCTIONS
 window.addEventListener('scroll', () => {
     console.log(scrollY)
@@ -19,6 +21,8 @@ window.addEventListener('scroll', () => {
             for (var i = 0; i < 11; i++){
                 knowledgeItems[i].classList.add('animation-opacity')
             }
+        case scrollY > 2200:
+            skillsTitle.classList.add('animation-on')
         default:
             break
     }
