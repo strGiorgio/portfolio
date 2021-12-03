@@ -24,6 +24,7 @@
     opacity: 10%;
     margin-bottom: 25px;
     text-align: center;
+    transform: translateX(-800px);
 }
 
 .second-title._projects {
