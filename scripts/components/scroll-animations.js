@@ -10,20 +10,23 @@ const skillsTitle = document.querySelector('.second-title._skills')
 //FUNCTIONS
 window.addEventListener('scroll', () => {
     console.log(scrollY)
-    switch (true) {
-        case scrollY > 400:
+
+        if (scrollY > 400){
             aboutTitle.classList.add('animation-on')
-        case scrollY > 450:
+        }
+        if (scrollY > 450){
             aboutText.classList.add('animation-on')
-        case scrollY > 900:
+        }
+        if (scrollY > 900){
             knowledgeTitle.classList.add('animation-on')
-        case scrollY > 1500:
+        }
+        if (scrollY > 1400){
             for (var i = 0; i < 11; i++){
                 knowledgeItems[i].classList.add('animation-opacity')
             }
-        case scrollY > 2200:
+        }
+        if (scrollY > 2000){
             skillsTitle.classList.add('animation-on')
-        default:
-            break
-    }
+        }
+
 })
