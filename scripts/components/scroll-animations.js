@@ -6,6 +6,7 @@ const knowledgeTitle = document.querySelector('.second-title._knowledge-title')
 const knowledgeItems = document.querySelectorAll('.knowledge-items')
 
 const skillsTitle = document.querySelector('.second-title._skills')
+const skillsItems = document.querySelectorAll('.skills-items')
 
 //FUNCTIONS
 window.addEventListener('scroll', () => {
@@ -27,6 +28,11 @@ window.addEventListener('scroll', () => {
         }
         if (scrollY > 2000){
             skillsTitle.classList.add('animation-on')
+        }
+        if (scrollY > 2300){
+            for (var i = 0; i < 7; i++) {
+                skillsItems[i].classList.add('animation-opacity')
+            }
         }
 
 })
