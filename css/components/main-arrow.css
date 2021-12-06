@@ -8,6 +8,7 @@
     opacity: 60%;
     top: 47%;
     z-index: 1;
+    cursor: pointer;
 }
 
 .main-arrow:hover {
