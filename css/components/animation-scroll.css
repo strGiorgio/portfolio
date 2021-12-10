@@ -25,11 +25,7 @@
     border-bottom-color: transparent;
     border-radius: 50%;
     margin: 0 auto;
-   
-}
-
-.loading-element.animation-load {
-    animation: rotation 2s linear infinite;
+   animation: rotation 2s linear infinite;
 }
 
 @keyframes rotation {

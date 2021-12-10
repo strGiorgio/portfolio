@@ -39,7 +39,7 @@ window.addEventListener('scroll', () => {
                 skillsItems[i].classList.add('animation-opacity')
             }
         }
-        if (scrollY > 2500) {
+        if (scrollY > 2300) {
             setTimeout(() => {
                 loading.style.display = 'none'
                 sectionProjects.style.display = 'flex'
