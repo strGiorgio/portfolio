@@ -8,6 +8,11 @@ const knowledgeItems = document.querySelectorAll('.knowledge-items')
 const skillsTitle = document.querySelector('.second-title._skills')
 const skillsItems = document.querySelectorAll('.skills-items')
 
+const sectionProjects = document.querySelector('.main-section._projects')
+const loading = document.querySelector('.loading-element')
+
+sectionProjects.style.display = 'none'
+
 //FUNCTIONS
 window.addEventListener('scroll', () => {
     console.log(scrollY)
@@ -33,6 +38,12 @@ window.addEventListener('scroll', () => {
             for (var i = 0; i < 7; i++) {
                 skillsItems[i].classList.add('animation-opacity')
             }
+        }
+        if (scrollY > 2500) {
+            setTimeout(() => {
+                loading.style.display = 'none'
+                sectionProjects.style.display = 'flex'
+            }, 3000)
         }
 
 })
