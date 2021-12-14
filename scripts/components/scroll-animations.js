@@ -35,7 +35,7 @@ window.addEventListener('scroll', () => {
             skillsTitle.classList.add('animation-on')
         }
         if (scrollY > 2300){
-            for (var i = 0; i < 7; i++) {
+            for (var i = 0; i < 8; i++) {
                 skillsItems[i].classList.add('animation-opacity')
             }
         }
